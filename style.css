@@ -209,10 +209,11 @@ h3{
     justify-content: space-between;
     margin-left: 78px;
     background-color:#fff;
-    background-size: 240px;
-    border-radius: 0.6rem;
+    background-size: 268px;
+    /* border-radius: 0.6rem; */
+    border-radius: 20px 100px 150px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    padding:20px;
+    padding:30px;
     
 }
 
@@ -305,6 +306,7 @@ h3{
       .events_img img{
         width: 400px;
         height: 320px;
+        border-radius: 100px 20px 150px;
         box-shadow: 30px -30px rgb(254, 244, 204);
 
       }
