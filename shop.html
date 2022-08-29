@@ -4,7 +4,7 @@
         <title>Shop</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Alumni+Sans+Pinstripe:ital@1&family=Cinzel:wght@500&family=Edu+TAS+Beginner&family=Gochi+Hand&family=Handlee&family=Josefin+Sans:wght@300&family=Lora&family=Patrick+Hand&display=swap" rel="stylesheet">
@@ -12,6 +12,8 @@
     </head>
 
     <style>
+    
+
         *{
             margin: 0;
             padding: 0;
@@ -97,6 +99,31 @@
           position: fixed;
           }
 
+          @media only screen and (max-width: 768px ){
+        body{
+            display: block;
+            width : 100%;
+        }
+
+        .shop_btn1{
+        width: 100%;
+    
+        }
+        .shop_img {
+        display: block;
+        width: 100%;
+        padding: 0 auto;
+        margin-left: 0 !important;
+        }
+        .shop_img img{
+            padding:90px 8px 30px 8px;
+        }
+        .btn button{
+            margin-bottom: 30px;
+        }
+        
+        }
+
         
     </style>
 
@@ -139,6 +166,6 @@
     <button class="btn">for happy Sticker <br> ¥ 800 </button>
 </div>
 </div>
-<h2><a href="./index.html"><img src="./imgs/fh_logo_OR.png" alt="for happy logo"></a></h2>
+<h2 class="return_top"><a href="./index.html"><img src="./imgs/fh_logo_OR.png" alt="for happy logo"></a></h2>
     </body>
 </html>

@@ -7,6 +7,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Alumni+Sans+Pinstripe:ital@1&family=Cinzel:wght@500&family=Edu+TAS+Beginner&family=Gochi+Hand&family=Handlee&family=Josefin+Sans:wght@300&family=Lora&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css"> 
+
 </head>
     <style>
         body{
@@ -32,8 +34,8 @@
             margin-top: 10px;
         }
         img{
-            height: 212px;
-            width: 180px;
+            
+            
             margin-top:150px;
             margin-left: 628px;
         
@@ -42,6 +44,16 @@
         .back_btn{
             display: flex;
             align-items: center;
+        }
+
+        @media only screen and (max-width: 768px ){
+            body{
+                width: 100%;
+                height:auto;
+            }
+            h1{
+                font-size: 60px;
+            }
         }
 
     </style>
