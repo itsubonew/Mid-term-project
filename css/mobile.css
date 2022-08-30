@@ -196,5 +196,58 @@ h4 p{
     font-size: 18px
 }
 
-
-
+/* .menu_bar ul{
+    display:flex;
+    flex-direction:colum;
+    justify-content:center;
+    }
+  
+   .menu_bar li {
+    font-size: 30px;
+    margin: 20px;
+    text-decoration: none;
+    transition: color .3s ease-out;
+  }
+  
+  .menu_bar a:hover {
+    color:#FF1493;
+    border-bottom:none;
+    transform: scale(1.2);
+  }
+  
+  form{
+      border-bottom:none;
+      top: 50%;
+      right: 50%;
+      transform: translate(+10%);
+      transition: all 0.5s ease-in-out;
+      width: 10px;
+      border-radius: 10px;
+      padding: 5px;
+  }
+  
+  
+  form:hover{
+      width: 180px;
+      cursor: pointer;
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 580px){
+    .menu_bar, a {
+      flex-direction:column;
+      margin:5px;
+      text-align:center;
+      font-size:18px;
+      border:none;
+      background-color:#F5F5F5;
+     }
+  }
+  
+  @media screen and (max-width: 580px){
+    form {
+      display:none;
+        }
+    } */
